@@ -56,15 +56,13 @@ export default function Home() {
             </li>
           </ul>
         </section>
-        <div className="relative">
-          <Image
-            className="w-auto max-h-[80vh]"
-            src="/banner-0.jpg"
-            width={8064}
-            height={6048}
-            alt="Imagem aérea da Igreja do Senhor do Bonfim em Salvador, Bahia, feita por Dom Drone"
-          />
-        </div>
+        <Image
+          className="w-full max-h-[80vh]"
+          src="/banner-0.jpg"
+          width={8064}
+          height={6048}
+          alt="Imagem aérea da Igreja do Senhor do Bonfim em Salvador, Bahia, feita por Dom Drone"
+        />
       </div>
       <div className="flex flex-col lg:flex-row gap-16 lg:px-16">
         <section className="flex flex-col gap-6 px-4 flex-1">
