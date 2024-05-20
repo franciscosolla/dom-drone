@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main className="flex flex-col gap-16 text-zinc-900 text-xl bg-zinc-100 min-h-screen max-w-[1920px]">
-      <div className="flex flex-col md:flex-row w-full items-center">
+      <div className="flex flex-col lg:flex-row w-full items-center">
         <section className="flex flex-col items-center gap-4 whitespace-nowrap p-16 flex-1">
           <Image
             className="rounded-full w-28 h-28"
@@ -66,7 +66,7 @@ export default function Home() {
           />
         </div>
       </div>
-      <div className="flex flex-col md:flex-row gap-16 md:px-16">
+      <div className="flex flex-col lg:flex-row gap-16 lg:px-16">
         <section className="flex flex-col gap-6 px-4 flex-1">
           <h2 className="font-bold text-2xl">Serviços</h2>
           <ul className="grid grid-cols-2 gap-4 gap-x-8 text-left italic">
