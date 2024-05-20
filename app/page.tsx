@@ -60,16 +60,18 @@ export default function Home() {
             </li>
           </ul>
         </section>
-        <Image
-          className="w-[2016px] lg:h-[1512px] max-w-full max-h-[80vh] aspect-[252/189]"
-          src={banner0}
-          width={2016}
-          height={1512}
-          alt="Imagem aérea da Igreja do Senhor do Bonfim em Salvador, Bahia, feita por Dom Drone"
-          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 80vw"
-          priority
-          placeholder="blur"
-        />
+        <div className="lg:w-auto max-w-full max-h-[80vh] aspect-[252/189] flex justify-center">
+          <Image
+            className="w-[2016px] lg:w-auto max-w-full max-h-[80vh] aspect-[252/189]"
+            src={banner0}
+            width={2016}
+            height={1512}
+            alt="Imagem aérea da Igreja do Senhor do Bonfim em Salvador, Bahia, feita por Dom Drone"
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 80vw"
+            priority
+            placeholder="blur"
+          />
+        </div>
       </div>
       <div className="flex flex-col lg:flex-row gap-16 lg:px-16">
         <section className="flex flex-col gap-6 px-4 flex-1">
