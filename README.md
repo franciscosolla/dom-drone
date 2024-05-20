@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Dom Drone
 
-## Getting Started
+Dom Drone is a company specializing in aerial filming and inspection services for various sectors in Salvador and the surrounding region of Bahia, including hospitality, real estate, construction, events, and tourism. This repository contains the source code for the Dom Drone website, developed using Next.js.
 
-First, run the development server:
+## Table of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [About](#about)
+- [Technologies](#technologies)
+- [Usage](#usage)
+- [Contact](#contact)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## About
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Dom Drone provides innovative and high-quality solutions for aerial filming and inspection. This project aims to create a professional online presence for the company, facilitating contact with potential clients and showcasing the services offered.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Technologies
 
-## Learn More
+- [Next.js](https://nextjs.org/)
+- [React](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [CSS Modules](https://github.com/css-modules/css-modules)
+- [Schema.org](https://schema.org/)
+- [Open Graph Protocol](https://ogp.me/)
 
-To learn more about Next.js, take a look at the following resources:
+## Usage
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This project includes the following features:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- SEO-optimized meta tags for search engines and social media sharing.
+- Structured data using JSON-LD to improve visibility in search engines.
+- Dynamic and responsive pages showcasing the services offered by Dom Drone.
+- Contact form and direct links to WhatsApp and email.
 
-## Deploy on Vercel
+## Contact
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Francisco Solla - [solla.dev](https://solla.dev)
+- Jonatan Farias - [Instagram](https://www.instagram.com/domdrone/)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+For more information, visit [Dom Drone](https://domdrone.com.br).
+
+---
+
+Developed with ❤️ by Francisco Solla and Jonatan Farias.

@@ -2,6 +2,19 @@
   "name": "dom-drone",
   "version": "0.1.0",
   "private": true,
+  "description": "Dom Drone offers professional aerial filming and inspection services in Salvador, Bahia. Innovative solutions for hospitality, real estate, construction, events, and tourism.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/franciscosolla/dom-drone.git"
+  },
+  "author": {
+    "name": "Francisco Solla",
+    "url": "https://solla.dev"
+  },
+  "bugs": {
+    "url": "https://github.com/franciscosolla/dom-drone/issues"
+  },
+  "homepage": "https://domdrone.com.br",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
