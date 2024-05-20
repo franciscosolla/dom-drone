@@ -1,4 +1,9 @@
 import Image from "next/image";
+import banner0 from "../public/banner-0.jpg";
+import profile from "../public/profile.jpg";
+import YoutubeSVG from "./ui/YoutubeSVG";
+import WhatsAppSVG from "./ui/WhatsAppSVG";
+import InstagramSVG from "./ui/InstagramSVG";
 
 export default function Home() {
   return (
@@ -7,11 +12,12 @@ export default function Home() {
         <section className="flex flex-col items-center gap-4 whitespace-nowrap p-16 flex-1">
           <Image
             className="rounded-full w-28 h-28"
-            src="/profile.jpg"
+            src={profile}
             width={224}
             height={224}
             alt="Foto de Jonatan Farias, dono da Dom Drone, mostrando o seu drone de trabalho."
             priority
+            placeholder="blur"
           />
           <div className="flex flex-col items-center">
             <h1 className="font-bold text-3xl">Jonatan Farias</h1>
@@ -24,33 +30,30 @@ export default function Home() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Image
+                <InstagramSVG
                   className="w-5 h-5"
-                  src="/instagram.svg"
-                  width={512}
-                  height={512}
+                  width={40}
+                  height={40}
                   alt="Acessar o Instagram da Dom Drone"
                 />
               </a>
             </li>
             <li>
               <a href="https://wa.me/5571996181993" target="_blank">
-                <Image
+                <WhatsAppSVG
                   className="w-5 h-5"
-                  src="/whatsapp.svg"
-                  width={512}
-                  height={512}
+                  width={40}
+                  height={40}
                   alt="Contato via WhatsApp com Dom Drone"
                 />
               </a>
             </li>
             <li>
               <a href="https://youtube.com/@domdrone" target="_blank">
-                <Image
+                <YoutubeSVG
                   className="w-5 h-5"
-                  src="/youtube.svg"
-                  width={512}
-                  height={512}
+                  width={40}
+                  height={40}
                   alt="Acessar o Youtube da Dom Drone"
                 />
               </a>
@@ -59,12 +62,13 @@ export default function Home() {
         </section>
         <Image
           className="w-auto max-h-[80vh] aspect-[252/189]"
-          src="/banner-0.jpg"
+          src={banner0}
           width={2016}
           height={1512}
           alt="Imagem aérea da Igreja do Senhor do Bonfim em Salvador, Bahia, feita por Dom Drone"
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 80vw"
           priority
+          placeholder="blur"
         />
       </div>
       <div className="flex flex-col lg:flex-row gap-16 lg:px-16">
