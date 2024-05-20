@@ -8,9 +8,10 @@ export default function Home() {
           <Image
             className="rounded-full w-28 h-28"
             src="/profile.jpg"
-            width={2252}
-            height={2252}
+            width={224}
+            height={224}
             alt="Foto de Jonatan Farias, dono da Dom Drone, mostrando o seu drone de trabalho."
+            priority
           />
           <div className="flex flex-col items-center">
             <h1 className="font-bold text-3xl">Jonatan Farias</h1>
@@ -57,11 +58,13 @@ export default function Home() {
           </ul>
         </section>
         <Image
-          className="w-full max-h-[80vh] aspect-[252/189]"
+          className="w-auto max-h-[80vh] aspect-[252/189]"
           src="/banner-0.jpg"
-          width={8064}
-          height={6048}
+          width={2016}
+          height={1512}
           alt="Imagem aérea da Igreja do Senhor do Bonfim em Salvador, Bahia, feita por Dom Drone"
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 80vw"
+          priority
         />
       </div>
       <div className="flex flex-col lg:flex-row gap-16 lg:px-16">
