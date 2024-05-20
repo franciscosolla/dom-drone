@@ -61,7 +61,7 @@ export default function Home() {
           </ul>
         </section>
         <Image
-          className="w-auto max-h-[80vh] aspect-[252/189]"
+          className="w-[2016px] lg:h-[1512px] max-w-full max-h-[80vh] aspect-[252/189]"
           src={banner0}
           width={2016}
           height={1512}
