@@ -35,7 +35,13 @@ export const metadata: Metadata = {
         alt: "Dom Drone - Serviços de Filmagem e Inspeção Aérea Profissional - Profile",
       },
       {
-        url: "https://domdrone.com.br/banner.jpg",
+        url: "https://domdrone.com.br/banner-0.jpg",
+        width: 8064,
+        height: 6048,
+        alt: "Dom Drone - Serviços de Filmagem e Inspeção Aérea Profissional - Banner",
+      },
+      {
+        url: "https://domdrone.com.br/banner-1.jpg",
         width: 8064,
         height: 6048,
         alt: "Dom Drone - Serviços de Filmagem e Inspeção Aérea Profissional - Banner",
@@ -65,7 +71,14 @@ export const metadata: Metadata = {
       },
       {
         type: "image/jpeg",
-        url: "https://domdrone.com.br/banner.jpg",
+        url: "https://domdrone.com.br/banner-0.jpg",
+        width: 8064,
+        height: 6048,
+        alt: "Dom Drone - Serviços de Filmagem e Inspeção Aérea Profissional - Banner",
+      },
+      {
+        type: "image/jpeg",
+        url: "https://domdrone.com.br/banner-1.jpg",
         width: 8064,
         height: 6048,
         alt: "Dom Drone - Serviços de Filmagem e Inspeção Aérea Profissional - Banner",
@@ -96,7 +109,7 @@ const jsonLd = {
   name: "Dom Drone",
   url: "https://domdrone.com.br",
   logo: "https://domdrone.com.br/logo.jpeg",
-  telephone: "+55 71 99293-3755",
+  telephone: "‪+55 71 99618‑1993‬",
   email: "contato@domdrone.com.br",
   address: {
     "@type": "PostalAddress",
@@ -125,11 +138,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
-      <body>{children}</body>
+      <body className="bg-zinc-100 flex flex-col items-center">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+        {children}
+      </body>
     </html>
   );
 }
