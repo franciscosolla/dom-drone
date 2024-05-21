@@ -43,7 +43,13 @@ export const sendEmail = async (
               <p><strong>Como conheceu a Dom Drone?:</strong> ${source} </p>
               `,
     })
-    .then(() => ({ status: "success", message: "Success: email was sent" }))
+    .then(
+      () =>
+        ({
+          status: "success",
+          message: "Success: email was sent",
+        }) as ISendEmailState,
+    )
     .catch((error) => {
       throw new Error(`Error: failed to send email because - ${error}}`);
     });
