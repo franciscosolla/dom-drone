@@ -19,6 +19,7 @@ export const Services: React.FC = () => (
             fill
             objectFit="cover"
             placeholder="blur"
+            sizes="100vw, (min-width: 1024px) 50vw"
           />
         </div>
         <h2>Hotelaria</h2>
@@ -31,6 +32,7 @@ export const Services: React.FC = () => (
             fill
             objectFit="cover"
             placeholder="blur"
+            sizes="100vw, (min-width: 1024px) 50vw"
           />
         </div>
         <h2>Mercado Imobiliário</h2>
@@ -43,6 +45,7 @@ export const Services: React.FC = () => (
             fill
             objectFit="cover"
             placeholder="blur"
+            sizes="100vw, (min-width: 1024px) 50vw"
           />
         </div>
         <h2>Inspeção Aérea</h2>
@@ -55,6 +58,7 @@ export const Services: React.FC = () => (
             fill
             objectFit="cover"
             placeholder="blur"
+            sizes="100vw, (min-width: 1024px) 50vw"
           />
         </div>
         <h2>Construção Civil</h2>
@@ -67,6 +71,7 @@ export const Services: React.FC = () => (
             fill
             objectFit="cover"
             placeholder="blur"
+            sizes="100vw, (min-width: 1024px) 50vw"
           />
         </div>
         <h2>Cobertura de Eventos</h2>
@@ -79,6 +84,7 @@ export const Services: React.FC = () => (
             fill
             objectFit="cover"
             placeholder="blur"
+            sizes="100vw, (min-width: 1024px) 50vw"
           />
         </div>
         <h2>Turismo</h2>
