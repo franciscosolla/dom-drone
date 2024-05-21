@@ -15,7 +15,7 @@ export const Services: React.FC = () => (
         <div className="aspect-square relative">
           <Image
             src={hotelaria}
-            alt="Foto aérea de um hotel pousada"
+            alt="Foto aérea de um hotel pousada em Salvador, Bahia"
             fill
             objectFit="cover"
             placeholder="blur"
@@ -28,7 +28,7 @@ export const Services: React.FC = () => (
         <div className="aspect-square relative">
           <Image
             src={imobiliario}
-            alt="Foto aérea de uma casa de veraneio em estagio final de construção"
+            alt="Foto de inspeção aérea do andamento de construção de um condominio de casas em Salvador, Bahia"
             fill
             objectFit="cover"
             placeholder="blur"
@@ -41,7 +41,7 @@ export const Services: React.FC = () => (
         <div className="aspect-square relative">
           <Image
             src={inspecao}
-            alt="Foto aérea de um hotel pousada"
+            alt="Foto de inspeção aérea de um complexo em Salvador, Bahia"
             fill
             objectFit="cover"
             placeholder="blur"
@@ -54,7 +54,7 @@ export const Services: React.FC = () => (
         <div className="aspect-square relative">
           <Image
             src={construcao}
-            alt="Foto aérea de um hotel pousada"
+            alt="Foto de inspeção aérea de andamento de construção de um edificio em Salvador, Bahia"
             fill
             objectFit="cover"
             placeholder="blur"
@@ -67,7 +67,7 @@ export const Services: React.FC = () => (
         <div className="aspect-square relative">
           <Image
             src={evento}
-            alt="Foto aérea de um hotel pousada"
+            alt="Foto aérea de competição de nado em mar aberto no Porto da Barra, praia e ponto turístico de Salvador, Bahia"
             fill
             objectFit="cover"
             placeholder="blur"
@@ -80,7 +80,7 @@ export const Services: React.FC = () => (
         <div className="aspect-square relative">
           <Image
             src={turismo}
-            alt="Foto aérea de um hotel pousada"
+            alt="Foto aérea do Elevador Lacerda, ponto turistico de Salvador, Bahia"
             fill
             objectFit="cover"
             placeholder="blur"
