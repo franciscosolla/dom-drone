@@ -35,6 +35,7 @@ export const ContactForm: React.FC = () => {
 
 const FormContent: React.FC = () => {
   const { pending } = useFormStatus();
+
   return (
     <>
       <div className="flex flex-col gap-4 lg:flex-row">
