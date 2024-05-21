@@ -9,6 +9,7 @@ export const ProfileImage: React.FC = () => (
     alt="Foto de Jonatan Farias, dono da Dom Drone, mostrando o seu drone de trabalho."
     priority
     placeholder="blur"
-    sizes="112px"
+    width={112}
+    height={112}
   />
 );
