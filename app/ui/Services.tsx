@@ -1,11 +1,11 @@
 import React from "react";
 import Image from "next/image";
-import hotelaria from "@/public/hotelaria.jpeg";
-import imobiliario from "@/public/imobiliario.jpg";
-import construcao from "@/public/construcao.jpg";
-import evento from "@/public/evento.jpg";
-import inspecao from "@/public/inspecao.jpg";
-import turismo from "@/public/turismo.jpg";
+import hotelaria from "@/public/hotelaria.webp";
+import imobiliario from "@/public/imobiliario.webp";
+import construcao from "@/public/construcao.webp";
+import evento from "@/public/evento.webp";
+import inspecao from "@/public/inspecao.webp";
+import turismo from "@/public/turismo.webp";
 
 export const Services: React.FC = () => (
   <section className="flex flex-col gap-6 text-center">
