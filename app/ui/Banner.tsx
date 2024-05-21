@@ -10,7 +10,7 @@ export const Banner: React.FC = () => (
       alt="Imagem aérea da Igreja do Senhor do Bonfim em Salvador, Bahia, feita por Dom Drone"
       priority
       placeholder="blur"
-      sizes="(max-width: 1024px) 100vw, 66vw"
+      sizes="(min-width: 1920px) 1344px, (min-width: 1024px) 66vw, (max-width: 1024px) 100vw"
     />
   </div>
 );
