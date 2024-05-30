@@ -6,7 +6,7 @@ import { About } from "@/app/ui/About";
 
 export default function Home() {
   return (
-    <main className="flex flex-col gap-8 text-zinc-900 text-xl bg-zinc-100 min-h-screen max-w-[1920px]">
+    <main className="flex flex-col gap-8 text-zinc-900 text-xl bg-zinc-100 min-h-screen max-w-[1280px]">
       <div className="flex flex-col lg:flex-row w-full items-center">
         <Profile />
         <Banner />
