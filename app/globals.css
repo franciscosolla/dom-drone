@@ -15,4 +15,7 @@ button:active {
 }
 
 @layer utilities {
+    .transition-duration-1 {
+        transition-duration: 1s;
+    }
 }
